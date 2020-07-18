@@ -1,0 +1,20 @@
+body {
+  background-image: url("../../assets/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.logo {
+  display: flex;
+  padding-left: 33px;
+  padding-top: 33px;
+}
+
+.image {
+  width: 480px;
+  height: 480px;
+  background-color: #fff;
+  border-radius: 240px;
+  align-items: center;
+  justify-items: center;
+}
