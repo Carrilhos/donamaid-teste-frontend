@@ -9,7 +9,9 @@ export const Container = styled.div`
   flex-direction: row @media (min-width: 600px) {
     flex-wrap: nowrap;
   }
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 `;
 
 export const Profile = styled.div`
@@ -19,15 +21,13 @@ export const Profile = styled.div`
   flex-wrap: wrap;
   aling-items: start;
   justify-content: flex-start;
-  border: 1px solid red;
-  margin-top: 10%;
+  margin-top: 15%;
 `;
 
 export const ProfileData = styled.div`
   display: flex;
   aacolor: #fff;
   flex-direction: column;
-  border: 1px solid red;
 `;
 
 export const Description = styled.div`
@@ -35,5 +35,7 @@ export const Description = styled.div`
   font-size: 20px;
   display: flex;
   text-align: center;
-  border: 1px solid red;
+  justifycontent: center;
 `;
+
+export const Button = styled.button``;
