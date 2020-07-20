@@ -1,20 +1,52 @@
 body {
-  background-image: url("../../assets/bg.png");
+  background-image: linear-gradient(
+    to bottom,
+    #af006b,
+    #b72478,
+    #bf3884,
+    #c74991,
+    #ce589d,
+    #d26daf,
+    #d682c0,
+    #da95cf,
+    #ddb2e2,
+    #e3cdf0,
+    #eee7f9,
+    #ffffff
+  );
   background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.logo {
+  background-repeat: repeat-x;
+  background-size: 100% 150%;
   display: flex;
-  padding-left: 33px;
-  padding-top: 33px;
+  flex-wrap: wrap;
+}
+.logo {
+  padding-left: 1%;
+  padding-top: 2%;
+  height: 10%;
+  width: 50%;
+  display: flex;
 }
 
 .image {
-  width: 240px;
-  height: 240px;
+  width: 40%;
+  height: 40%;
   background-color: #fff;
   border-radius: 50%;
-  align-items: center;
-  justify-items: center;
+
+  margin-left: 5%;
+  margin-right: 5%;
+  display: flex;
+}
+
+.profileData .name {
+  font-size: 4em;
+}
+
+.profileData p {
+  font-size: 1.5em;
+}
+
+.profileData h1 {
+  font-size: 1em;
 }
