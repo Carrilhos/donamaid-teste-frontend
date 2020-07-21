@@ -10,32 +10,10 @@ export const Container = styled.div`
     flex-wrap: nowrap;
   }
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
-`;
-
-export const Profile = styled.div`
-  display: flex;
-  flex-direction: row;
-  margin-left: 1%;
-  flex-wrap: wrap;
-  aling-items: start;
-  justify-content: flex-start;
-  margin-top: 15%;
-`;
-
-export const ProfileData = styled.div`
-  display: flex;
-  aacolor: #fff;
-  flex-direction: column;
-`;
-
-export const Description = styled.div`
-  width: 400px;
-  font-size: 20px;
-  display: flex;
-  text-align: center;
-  justifycontent: center;
+  margin-left: 25px;
+  width: ${px2vw(320, 320)};
 `;
 
 export const Button = styled.button``;
