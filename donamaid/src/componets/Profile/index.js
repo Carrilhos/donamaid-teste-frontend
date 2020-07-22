@@ -11,6 +11,7 @@ import logo from "../../assets/horizontal-branco.png";
 import logo2 from "../../assets/donamaid-logo.svg";
 import frajola from "../../assets/frajola.png";
 import donie from "../../assets/donie.svg";
+import api from "../../services/api";
 
 function getModalStyle() {
   const top = 50;
@@ -47,7 +48,17 @@ export default function Profissional() {
     setOpen(false);
   };
 
-  const preventDefault = event => event.preventDefault();
+  const [people, setPeople] = useState([]);
+
+  async function loadPeople() {
+    console.log(people);
+    const response = await api.get(`/people/1`);
+    setPeople(response.data);
+  }
+
+  useEffect(() => {
+    loadPeople();
+  }, []);
 
   return (
     <div>
@@ -59,22 +70,21 @@ export default function Profissional() {
             <div>
               <div className="containerX">
                 <ProfileData className="profileData">
-                  <div className="name">Frajola</div>
+                  <div className="name">{people.name}</div>
                   <p> Com a donamaid desde 2020</p>
                 </ProfileData>
                 <Description>
                   <p>
                     {" "}
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Praesent nec bibendum est, laoreet volutpat orci. Curabitur
-                    non ultricies justo, vel congue nibh. Aliquam erat volutpat.
-                    Aliquam vitae neque
+                    {people.name} tem {people.height}cm de altura e pesa{" "}
+                    {people.mass}kg é do gênero {people.gender} e faz
+                    aniversario em {people.birth_year}
                   </p>
                 </Description>
               </div>
               <div className="buttonContainer">
                 <button className="button" onClick={handleOpen}>
-                  Quero contratar Frajola
+                  Quero contratar {people.name}
                 </button>
               </div>
             </div>

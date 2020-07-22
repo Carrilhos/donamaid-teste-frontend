@@ -34,3 +34,11 @@ body {
   margin-bottom: 10px;
   border: none;
 }
+
+.titulo {
+  font-size: 1.5em;
+}
+
+.listItem {
+  margin-bottom: 5px;
+}
