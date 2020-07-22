@@ -21,3 +21,16 @@ body {
   display: flex;
   flex-direction: column;
 }
+
+.input {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.input input {
+  margin-bottom: 10px;
+  border: none;
+}

@@ -1,9 +1,7 @@
 import React from "react";
 
-import { Container, Profile, ProfileData, Description } from "./homeStyles";
+import { Container } from "./homeStyles";
 import "./index.css";
-import logo from "../../assets/horizontal-branco.png";
-import frajola from "../../assets/frajola.png";
 import Profissionais from "../../componets/Profile";
 
 export default function Home() {
