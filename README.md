@@ -1,5 +1,17 @@
 # Teste frontend
+<p align="center">
+<img src="https://github.com/Carrilhos/donamaid-teste-frontend/blob/master/assets/imgFromReadme/print1.png" />
 
+<img src="https://github.com/Carrilhos/donamaid-teste-frontend/blob/master/assets/imgFromReadme/print2.png"/>
+
+<img src="https://github.com/Carrilhos/donamaid-teste-frontend/blob/master/assets/imgFromReadme/print3.png"/>
+</p>
+<br><br>
+
+**Dificuldades:** Por conta de um erro no código a API começou a retorna o code 429, o que me impedia de fazer as requests. Por conta disso, não consegui fazer toda integração pretendida com a API visto que teria que fazer tudo as cégas sem saber como estava funcionando. Visto que tive essa dificuldade, adicionei uma tela de cadastro também.
+
+**Agradecimentos:** Gostaria de agradecer a Donamiad pela oportunidade de prestar o teste técnico, pela recepção de todos selecionados e por responder todas as dúvidas que tive por email. O Teste foi uma oportunidade muito boa e que me fez crescer como profissional, obrigado pela oportunidade :)
+ 
 **Importante:** leia todo o documento com atenção.
 
 **Descrição:** transformar o layout fornecido em código e consumir a API [SWAPI - The Star Wars API](https://swapi.dev/) como base de dados. 
