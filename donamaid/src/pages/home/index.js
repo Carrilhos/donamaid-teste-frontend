@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-
 import { Container } from "./homeStyles";
 import "./index.css";
 import Profissionais from "../../componets/Profile";
@@ -13,10 +12,12 @@ export default function Home() {
     const response = await api.get(`/people/`);
     setPeople(response.data.results);
   }
-
   useEffect(() => {
     loadPeople();
-  });
+  }, []);
+
+  function loadProfissional() {}
+
   return (
     <Container>
       <Profissionais />

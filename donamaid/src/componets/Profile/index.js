@@ -24,7 +24,7 @@ function getModalStyle() {
   };
 }
 
-export default function Profissional() {
+export default function Profissional(props) {
   const useStyles = makeStyles(theme => ({
     paper: {
       position: "absolute",
@@ -131,7 +131,7 @@ export default function Profissional() {
                 </Link>
                 <div className="register">
                   Não possui cadastro? Faça{" "}
-                  <Link>
+                  <Link to="/Cadastro">
                     <a>Aqui</a>
                   </Link>
                 </div>

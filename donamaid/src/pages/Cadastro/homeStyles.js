@@ -9,8 +9,8 @@ export const Container = styled.div`
   flex-direction: row @media (min-width: 600px) {
     flex-wrap: nowrap;
   }
-  flex-direction: row;
-  justify-content: space-around;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
   margin-left: 25px;
   width: ${px2vw(320, 320)};
