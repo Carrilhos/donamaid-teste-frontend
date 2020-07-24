@@ -8,6 +8,29 @@
 </p>
 <br><br>
 
+<h1> Execução </h1>
+<br>
+<h2>Indo para o diretorio</h2>
+
+```
+cd donamaid/
+```
+<br>
+<h2>Instalando dependências</h2>
+
+```
+yarn 
+```
+<br>
+<h2>Executando</h2>
+
+```
+yarn start
+```
+
+<br>
+
+
 **Dificuldades:** Por conta de um erro no código a API começou a retorna o code 429, o que me impedia de fazer as requests. Por conta disso, não consegui fazer toda integração pretendida com a API visto que teria que fazer tudo as cégas sem saber como estava funcionando. Visto que tive essa dificuldade, adicionei uma tela de cadastro também.
 
 **Agradecimentos:** Gostaria de agradecer a Donamiad pela oportunidade de prestar o teste técnico, pela recepção de todos selecionados e por responder todas as dúvidas que tive por email. O Teste foi uma oportunidade muito boa e que me fez crescer como profissional, obrigado pela oportunidade :)
