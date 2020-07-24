@@ -44,7 +44,7 @@ Foco no UI: ao clicar em outro profissional devo ver a tela com as informações
 Esse repositório deve ser forkado para desenvolvimento do teste pelo candidato e ao final deve ser hospedado no Netlify.
 
 **Endereço para o front no Netlify:**
-    (link aqui a ser preenchido pelo candidato)
+    (Por conta de problemas com o Netlify, escrevi as instruções de execução logo acima.)
 
 # Telas do layout:
 
