@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2df874de.chunk.css",
+    "main.js": "/static/js/main.313f0caf.chunk.js",
+    "main.js.map": "/static/js/main.313f0caf.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.8b9fcee4.js",
+    "runtime-main.js.map": "/static/js/runtime-main.8b9fcee4.js.map",
+    "static/js/2.6f5c96ca.chunk.js": "/static/js/2.6f5c96ca.chunk.js",
+    "static/js/2.6f5c96ca.chunk.js.map": "/static/js/2.6f5c96ca.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.aad9258840d6b3abfea8459ed9ee3956.js": "/precache-manifest.aad9258840d6b3abfea8459ed9ee3956.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.2df874de.chunk.css.map": "/static/css/main.2df874de.chunk.css.map",
+    "static/js/2.6f5c96ca.chunk.js.LICENSE.txt": "/static/js/2.6f5c96ca.chunk.js.LICENSE.txt",
+    "static/media/donamaid-logo.svg": "/static/media/donamaid-logo.5cfe0daf.svg",
+    "static/media/donie.svg": "/static/media/donie.6701a435.svg",
+    "static/media/frajola.png": "/static/media/frajola.6ff69fd1.png",
+    "static/media/horizontal-branco.png": "/static/media/horizontal-branco.62266bb8.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8b9fcee4.js",
+    "static/js/2.6f5c96ca.chunk.js",
+    "static/css/main.2df874de.chunk.css",
+    "static/js/main.313f0caf.chunk.js"
+  ]
+}
